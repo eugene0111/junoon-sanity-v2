@@ -11,7 +11,7 @@ export default defineConfig({
   title: 'Junoon',
   icon: Logo,
 
-  projectId: 'tvwtacpm',
+  projectId: process.env.SANITY_PROJECT_ID,
   dataset: 'production',
 
   plugins: [structureTool({structure}), visionTool(), singletonTools()],
