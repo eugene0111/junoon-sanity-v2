@@ -13,6 +13,8 @@ import storygram from './storygram'
 import team from './team'
 import timelineEvent from './timelineEvent'
 import wallpaper from './wallpaper'
+import recruitment from './recruitment'
+import application from './application'
 
 export const schemaTypes = [
   collection,
@@ -28,6 +30,8 @@ export const schemaTypes = [
   logo,
   team,
   reel,
+  recruitment,
+  application,
   wallpaper,
   home,
 ]

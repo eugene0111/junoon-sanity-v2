@@ -36,6 +36,12 @@ const team = defineType({
       type: 'array',
       of: [defineArrayMember({type: 'reference', to: [{type: 'member'}]})],
     }),
+    defineField({
+      name: 'developers',
+      title: 'Developers',
+      type: 'array',
+      of: [defineArrayMember({type: 'reference', to: [{type: 'developer'}]})],
+    }),
   ],
   options: {
     singleton: true,
